@@ -1,6 +1,6 @@
 # Starter Bot 33401 — Test Script
 
-Test script for the Starter Bot 33401, used to test driving, intake, shooting, and speed adjustments.
+Test script for the Starter Bot of team 33401, used to test driving, intake, shooting, and shooter's speed adjustments.
 
 ## Controls
 
