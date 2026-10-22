@@ -285,12 +285,14 @@ public class BioBuzzStarterbotTeleopMecanum extends OpMode {
         }
         if (gamepad1.dpad_down && !lastDpadDown) {
             LAUNCHER_TARGET_VELOCITY = Math.max(0, LAUNCHER_TARGET_VELOCITY - VELOCITY_STEP);
+            telemetry.addData("Launcher Target Velocity too low");
         }
         if (gamepad1.dpad_right && !lastDpadRight) {
             LAUNCHER_MIN_VELOCITY += VELOCITY_STEP;
         }
         if (gamepad1.dpad_left && !lastDpadLeft) {
             LAUNCHER_MIN_VELOCITY = Math.max(0, LAUNCHER_MIN_VELOCITY - VELOCITY_STEP);
+            telemetry.addData("Launcher Min Velocity too low");
         }
     
         if (LAUNCHER_MIN_VELOCITY >= LAUNCHER_TARGET_VELOCITY) {
