@@ -1,6 +1,6 @@
 # Starter Bot 33401 — Test Script
 
-Test script for the Starter Bot of team 33401, used to test driving, intake, shooting, and shooter's speed adjustments.
+Test script(s) for the Starter Bot of team 33401 for the FTC Biobuzz 2026-2027 season, used to test driving, intake, shooting, and shooter's speed adjustments.
 
 ## Controls
 
